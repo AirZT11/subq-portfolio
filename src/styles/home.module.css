@@ -1,0 +1,43 @@
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
+  grid-gap: 40px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+}
+.header h2 {
+  font-size: 4em;
+}
+.header h3 {
+  font-size: 3em;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.link {
+  margin: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background: #d42990;
+  padding: 16px 16px;
+  border-radius: 10px;
+  margin: 20px;
+  min-width: 100px;
+  font-size: 1.5em;
+}
+.btn:hover {
+  background: rgb(36, 34, 173);
+}
+
+.logo {
+  max-width: 100vh;
+}

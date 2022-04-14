@@ -1,0 +1,137 @@
+[
+  {
+    "title": "Call Me",
+    "artist": ["China Fox"],
+    "credits": ["Sub Q", "China Fox"],
+    "audio": "https://open.spotify.com/track/1w3vv3RTTbJY26NnYOZEZ8?si=c30ff979e5e043fd",
+    "video": null,
+    "image": "https://imgur.com/okVYYJY",
+    "type": "production"
+  },
+  {
+    "title": "Starting A Flame",
+    "artist": ["AKA Block", "Keo", "OHenry", "Sub Q (guitar)"],
+    "credits": ["AKA Block", "Keo", "OHenry", "Sub Q (guitar)"],
+    "audio": "https://open.spotify.com/track/4qVnhvm9SGl84Fg6Rr858C?si=12e3e35ae2434c0f",
+    "video": null,
+    "image": "https://imgur.com/k5KL7Yz",
+    "type": "production"
+  },
+  {
+    "title": "I Sank Then Swam EP",
+    "artist": ["Keo"],
+    "credits": ["Sub Q", "AKA Block", "Keo"],
+    "audio": "https://open.spotify.com/album/0Se53lwNaK7QXjdr23YYOi?si=9nXde4WpSP-go41Dq3_8cw",
+    "video": null,
+    "image": "https://imgur.com/2dJojIV",
+    "type": "production"
+  },
+  {
+    "title": "Saints and Sinners",
+    "artist": ["Sub Q", "Cabri"],
+    "credits": ["Sub Q", "Cabri"],
+    "audio": "https://open.spotify.com/track/5A21s2CcLuvhw46GNHpclN?si=ce9f68c90f2d4a83",
+    "video": null,
+    "image": "https://imgur.com/VtdNp3H",
+    "type": "production"
+  },
+  {
+    "title": "Can’t Miss A Friend",
+    "artist": ["DJ and the Yams"],
+    "credits": ["DJ and the Yams", "Sub Q (guitar)"],
+    "audio": "https://open.spotify.com/track/409iRP6OdbmT6LADKJsA6f?si=b7da4556d88549e6",
+    "video": null,
+    "image": "https://imgur.com/e7ZOQLe",
+    "type": "production"
+  },
+  {
+    "title": "Degeneration EP",
+    "artist": ["Sub Q", "Baylen"],
+    "credits": ["Sub Q", "Baylen"],
+    "audio": "https://open.spotify.com/album/6cKBE91YGBnbVUOLLlrP0B?si=-Q4owozXTl2yJg-spwpBwg",
+    "video": null,
+    "image": "https://imgur.com/b7m6vtk",
+    "type": "production"
+  },
+  {
+    "title": "Light Sauce EP",
+    "artist": ["Sub Q", "Philly G"],
+    "credits": ["Sub Q", "Philly G"],
+    "audio": "https://open.spotify.com/album/1Mb8L10TCOGu0tA9MN8z3z?si=9CRB6pPZT7KZu-lGkFw80w",
+    "video": null,
+    "image": "https://imgur.com/1HdyKHM",
+    "type": "production"
+  },
+  {
+    "title": "Television Full Length Album",
+    "artist": ["Doe Eye"],
+    "credits": ["Doe Eye", "Sub Q (guitar", "keys", "synths)"],
+    "audio": "https://open.spotify.com/album/0EYgMfrfP8iLSAIqGvTeke?si=lEi7d3HKRWWN5je1zpoAew",
+    "video": null,
+    "image": "https://imgur.com/7EmeflW",
+    "type": "production"
+  },
+  {
+    "title": "Mistake",
+    "artist": ["Louie Bello"],
+    "credits": ["Louie Bello", "Jason Tucker Sub Q (guitar)"],
+    "audio": "https://open.spotify.com/track/4qIwh1xLOgtLXq4UMy2Kqe?si=cc94079630364991",
+    "video": null,
+    "image": "https://imgur.com/ly6zBR1",
+    "type": "production"
+  },
+  {
+    "title": "Sub Q Interlude",
+    "artist": ["Viva La Hop"],
+    "credits": ["Viva La Hop", "Sub Q"],
+    "audio": "https://open.spotify.com/track/0q4zyymFc7j3fCKLVtZYi2?si=66e4814de0a3453e",
+    "video": null,
+    "image": "https://imgur.com/MzqDhMD",
+    "type": "production"
+  },
+  {
+    "title": "Yesterday’s Pain",
+    "artist": ["Liisi Fontaine"],
+    "credits": ["Liisi Fontaine", "Sub Q"],
+    "audio": "https://open.spotify.com/track/5F1kIIHP8WRYmbbxIuk6Mq?si=1dba965269ad46d9",
+    "video": null,
+    "image": "https://imgur.com/Zip7Mnr",
+    "type": "production"
+  },
+  {
+    "title": "We",
+    "artist": ["Justine Skye"],
+    "credits": ["Justine Skye"],
+    "audio": null,
+    "video": "https://www.youtube.com/watch?v=1JU4L7LGctM",
+    "image": null,
+    "type": "live"
+  },
+  {
+    "title": "Twisted",
+    "artist": ["Justine Skye"],
+    "credits": ["Justine Skye"],
+    "audio": null,
+    "video": "https://www.youtube.com/watch?v=u2wpS-HlY0A",
+    "image": null,
+    "type": "live"
+  },
+  {
+    "title": "Carol's Daughter",
+    "artist": ["Justine Skye"],
+    "credits": ["Justine Skye"],
+    "audio": null,
+    "video": "https://www.youtube.com/watch?v=17N8q2VdU7M&t=4s",
+    "image": null,
+    "type": "live"
+  },
+  {
+    "title": "Black Girl Magic",
+    "artist": ["Niya Norwood"],
+    "credits": ["Niya Norwood"],
+    "audio": null,
+    "video": "https://www.youtube.com/watch?v=O1airw30mdg",
+    "image": null,
+    "type": "live"
+  }
+]

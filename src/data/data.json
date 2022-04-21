@@ -5,7 +5,7 @@
     "credits": ["Sub Q", "China Fox"],
     "audio": "https://open.spotify.com/track/1w3vv3RTTbJY26NnYOZEZ8?si=c30ff979e5e043fd",
     "video": null,
-    "image": "https://imgur.com/okVYYJY",
+    "image": { "src": "../images/call_me.png" },
     "type": "production"
   },
   {
@@ -14,7 +14,7 @@
     "credits": ["AKA Block", "Keo", "OHenry", "Sub Q (guitar)"],
     "audio": "https://open.spotify.com/track/4qVnhvm9SGl84Fg6Rr858C?si=12e3e35ae2434c0f",
     "video": null,
-    "image": "https://imgur.com/k5KL7Yz",
+    "image": { "src": "../images/starting_a_flame.png" },
     "type": "production"
   },
   {
@@ -23,7 +23,7 @@
     "credits": ["Sub Q", "AKA Block", "Keo"],
     "audio": "https://open.spotify.com/album/0Se53lwNaK7QXjdr23YYOi?si=9nXde4WpSP-go41Dq3_8cw",
     "video": null,
-    "image": "https://imgur.com/2dJojIV",
+    "image": { "src": "../images/i_sank_than_swam.png" },
     "type": "production"
   },
   {
@@ -32,7 +32,7 @@
     "credits": ["Sub Q", "Cabri"],
     "audio": "https://open.spotify.com/track/5A21s2CcLuvhw46GNHpclN?si=ce9f68c90f2d4a83",
     "video": null,
-    "image": "https://imgur.com/VtdNp3H",
+    "image": { "src": "../images/saints_and_sinners.png" },
     "type": "production"
   },
   {
@@ -41,7 +41,7 @@
     "credits": ["DJ and the Yams", "Sub Q (guitar)"],
     "audio": "https://open.spotify.com/track/409iRP6OdbmT6LADKJsA6f?si=b7da4556d88549e6",
     "video": null,
-    "image": "https://imgur.com/e7ZOQLe",
+    "image": { "src": "../images/cant_miss_a_friend.png" },
     "type": "production"
   },
   {
@@ -50,7 +50,7 @@
     "credits": ["Sub Q", "Baylen"],
     "audio": "https://open.spotify.com/album/6cKBE91YGBnbVUOLLlrP0B?si=-Q4owozXTl2yJg-spwpBwg",
     "video": null,
-    "image": "https://imgur.com/b7m6vtk",
+    "image": { "src": "../images/degeneration.png" },
     "type": "production"
   },
   {
@@ -59,7 +59,7 @@
     "credits": ["Sub Q", "Philly G"],
     "audio": "https://open.spotify.com/album/1Mb8L10TCOGu0tA9MN8z3z?si=9CRB6pPZT7KZu-lGkFw80w",
     "video": null,
-    "image": "https://imgur.com/1HdyKHM",
+    "image": { "src": "../images/light_sauce.png" },
     "type": "production"
   },
   {
@@ -68,7 +68,7 @@
     "credits": ["Doe Eye", "Sub Q (guitar", "keys", "synths)"],
     "audio": "https://open.spotify.com/album/0EYgMfrfP8iLSAIqGvTeke?si=lEi7d3HKRWWN5je1zpoAew",
     "video": null,
-    "image": "https://imgur.com/7EmeflW",
+    "image": { "src": "../images/television.png" },
     "type": "production"
   },
   {
@@ -77,7 +77,7 @@
     "credits": ["Louie Bello", "Jason Tucker Sub Q (guitar)"],
     "audio": "https://open.spotify.com/track/4qIwh1xLOgtLXq4UMy2Kqe?si=cc94079630364991",
     "video": null,
-    "image": "https://imgur.com/ly6zBR1",
+    "image": { "src": "../images/mistake.png" },
     "type": "production"
   },
   {
@@ -86,7 +86,7 @@
     "credits": ["Viva La Hop", "Sub Q"],
     "audio": "https://open.spotify.com/track/0q4zyymFc7j3fCKLVtZYi2?si=66e4814de0a3453e",
     "video": null,
-    "image": "https://imgur.com/MzqDhMD",
+    "image": { "src": "../images/sub_q_interlude.png" },
     "type": "production"
   },
   {
@@ -95,7 +95,7 @@
     "credits": ["Liisi Fontaine", "Sub Q"],
     "audio": "https://open.spotify.com/track/5F1kIIHP8WRYmbbxIuk6Mq?si=1dba965269ad46d9",
     "video": null,
-    "image": "https://imgur.com/Zip7Mnr",
+    "image": { "src": "../images/yesterdays_pain.png" },
     "type": "production"
   },
   {

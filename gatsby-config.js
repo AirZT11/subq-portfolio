@@ -8,6 +8,7 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-transformer-remark",
     `gatsby-transformer-json`,
+    "gatsby-plugin-dts-css-modules",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -17,8 +18,14 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `assets`,
-        path: `${__dirname}/src/sfx/`,
+        name: `images`,
+        path: `${__dirname}/src/images/`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [`gatsby-remark-responsive-iframe`],
       },
     },
   ],

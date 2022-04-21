@@ -18,6 +18,7 @@
     "gatsby-cli": "^4.12.1",
     "gatsby-plugin-image": "^2.12.1",
     "gatsby-plugin-sharp": "^4.12.1",
+    "gatsby-remark-responsive-iframe": "^5.12.1",
     "gatsby-source-filesystem": "^4.12.1",
     "gatsby-transformer-json": "^4.12.1",
     "gatsby-transformer-remark": "^5.12.1",
@@ -26,6 +27,8 @@
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
+    "dts-css-modules-loader": "^1.2.4",
+    "gatsby-plugin-dts-css-modules": "^2.2.0",
     "prettier": "^2.5.1"
   },
   "repository": {

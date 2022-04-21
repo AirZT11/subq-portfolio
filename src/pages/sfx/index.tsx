@@ -4,7 +4,7 @@ import CardListView from "../../components/CardListView"
 import Layout from "../../components/Layout"
 import { queryString } from "../../utils/query"
 
-export default function Productions({ data }) {
+export default function SFX({ data }) {
   const dataArray = data.allDataJson.nodes
 
   return (
@@ -14,11 +14,11 @@ export default function Productions({ data }) {
   )
 }
 
-// const productionType = queryString("production")
+// const productionType = queryString("sfx")
 // console.log(productionType)
 export const query = graphql`
-  query MyQuery {
-    allDataJson(filter: { type: { eq: "production" } }) {
+  query SFXQuery {
+    allDataJson(filter: { type: { eq: "sfx" } }) {
       nodes {
         artist
         audio
@@ -28,7 +28,7 @@ export const query = graphql`
           src {
             childImageSharp {
               gatsbyImageData(
-                width: 500
+                width: 200
                 placeholder: BLURRED
                 formats: [AUTO, WEBP, AVIF]
               )

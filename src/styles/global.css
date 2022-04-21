@@ -1,16 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
-  font-family: "Permanent Marker";
+  font-family: "Inter", sans-serif;
   color: white;
+  /* letter-spacing: 0.1em; */
 }
 html,
 body {
-  min-height: 100%;
+  min-height: 100vh;
 }
 body {
   /* background: radial-gradient(
@@ -55,8 +56,11 @@ nav a {
 }
 
 footer {
-  position: absolute;
   bottom: 0;
+  border-top: 2px solid white;
+  background-color: black;
+  position: sticky;
+  /* width: 100%; */
 }
 
 footer p {

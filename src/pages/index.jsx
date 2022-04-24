@@ -20,10 +20,10 @@ export default function Home() {
     <div className={home}>
       <section className={header}>
         <h2>SUBQ</h2>
-        <StaticImage
+        {/* <StaticImage
           className={backgroundImage}
           src="../images/cloud-background.jpg"
-        />
+        /> */}
         <StaticImage
           className={logo}
           src="../images/logo.png"

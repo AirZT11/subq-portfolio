@@ -34,11 +34,11 @@
 
 .logo {
   /* max-width: 100vh; */
-  position: absolute;
-  opacity: 0.7;
-  filter: contrast(200%);
+  /* position: absolute; */
+  /* opacity: 0.7; */
+  /* filter: contrast(200%); */
   /* backdrop-filter: blur(10px); */
-  filter: drop-shadow(16px 16px 20px #d42990);
+  filter: drop-shadow(16px 16px 100px #d42990);
 }
 
 .link {

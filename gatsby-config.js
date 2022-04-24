@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "FUCK THIS SHIT",
+    title: "SUBQ",
   },
   plugins: [
     "gatsby-plugin-image",

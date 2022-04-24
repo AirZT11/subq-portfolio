@@ -10,8 +10,11 @@ interface CardDataProps {
 }
 export default function CardView({ cardData }) {
   const { artist, audio, credits, image, title, type, video } = cardData
+
+  // converts image data GatsbyImage iamge src
   const imageObj = image && getImage(image.src.childImageSharp.gatsbyImageData)
 
+  // Add commas on artists/credits if > 1
   const addComma = (arr: [], i: number) => {
     if (arr.length > 1 && i < arr.length - 1) return ", "
   }
@@ -27,26 +30,48 @@ export default function CardView({ cardData }) {
   const artistCredits = infoArr(credits)
 
   return (
-    <div className={styles.cardContainer}>
+    <div className={styles.card}>
       <div className={styles.cardImageContainer}>
-        <GatsbyImage
-          className={styles.cardImage}
-          image={imageObj}
-          alt="nothing"
-        />
-        <iframe
-          className={styles.cardSongPreview}
-          src="https://open.spotify.com/embed/track/1w3vv3RTTbJY26NnYOZEZ8?utm_source=generator"
-          width="100%"
-          height="100%"
-          frameBorder="0"
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        />
-      </div>
-      <div className={styles.cardInfo}>
-        <div>"{title}"</div>
-        <div>Artist: {artistName}</div>
-        <div>Credits: {artistCredits}</div>
+        <a href={audio} target="_blank" className={styles.imageLinkWrapper}>
+          {image && (
+            <GatsbyImage
+              className={styles.cardImage}
+              image={imageObj}
+              alt="nothing"
+            />
+          )}
+          {video && (
+            <iframe
+              src={video}
+              width="100%"
+              height="100%"
+              frameBorder="0"
+              allow="autoplay; fullscreen"
+              allowFullScreen
+              onClick={e => console.log("hello!")}
+            />
+            // <ReactPlayer
+            //     url={video}
+            //     width="100%"
+            //     height="100%"
+            //   />
+          )}
+
+          {/* <iframe
+            className={styles.cardSongPreview}
+            src="https://open.spotify.com/embed/user/spotify/playlist/37i9dQZF1DWWvHBEQLnV1N"
+            width="100%"
+            height="100%"
+            frameBorder={0}
+          /> */}
+          <div className={styles.hoverOverlay}>
+            <div className={styles.cardInfo}>
+              <p>{title}</p>
+              {/* <div>Artist: {artistName}</div> */}
+              {/* <div>Credits: {artistCredits}</div> */}
+            </div>
+          </div>
+        </a>
       </div>
     </div>
   )

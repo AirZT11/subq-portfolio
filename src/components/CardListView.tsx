@@ -20,7 +20,7 @@ export interface CardListViewProps {
 export default function CardListView(data: CardListViewProps) {
   const cards = data.data
   return (
-    <div className={styles.cardListContainer}>
+    <div className={styles.cards}>
       {cards.map(card => (
         <CardView key={card.id} cardData={card} />
       ))}

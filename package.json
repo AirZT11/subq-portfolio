@@ -14,6 +14,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@vimeo/player": "^2.16.4",
     "gatsby": "^4.9.2",
     "gatsby-cli": "^4.12.1",
     "gatsby-plugin-image": "^2.12.1",

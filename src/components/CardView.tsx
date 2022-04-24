@@ -1,6 +1,6 @@
 import { graphql } from "gatsby"
 import { GatsbyImage, getImage, StaticImage } from "gatsby-plugin-image"
-import React from "react"
+import React, { useRef } from "react"
 import { CardProps } from "./CardListView"
 import * as styles from "../styles/card.module.css"
 
@@ -42,7 +42,7 @@ export default function CardView({ cardData }) {
           )}
           {video && (
             <iframe
-              src={video}
+              src={`${video}`}
               width="100%"
               height="100%"
               frameBorder="0"

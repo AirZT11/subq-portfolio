@@ -16,8 +16,8 @@ export default function Music({ data }) {
 // const productionType = queryString("production")
 // console.log(productionType)
 export const query = graphql`
-  query productionsQuery {
-    allDataJson(filter: { type: { eq: "production" } }) {
+  query musicQuery {
+    allDataJson(filter: { type: { eq: "music" } }) {
       nodes {
         artist
         audio

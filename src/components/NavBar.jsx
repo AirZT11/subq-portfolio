@@ -18,11 +18,19 @@ export default function NavBar() {
 
   return (
     <nav>
-      <h1>SubQ</h1>
+      <Link to="/" className="navName">
+        SubQ
+      </Link>
       <div className="links">
-        <Link to="/">Home</Link>
-        <Link to="/sfx">SFX</Link>
-        <Link to="/music">Music</Link>
+        <Link to="/sfx" className="link">
+          SFX
+        </Link>
+        <Link to="/music" className="link">
+          Music
+        </Link>
+        <Link to="/productions" className="link">
+          Productions
+        </Link>
         {/* <Link to='/'>About</Link>
       <Link to='/'>Contact</Link> */}
       </div>

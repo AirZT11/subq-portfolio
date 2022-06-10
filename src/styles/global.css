@@ -12,25 +12,22 @@
 html,
 body {
   min-height: 100vh;
-  background-color: black;
+  background-color: rgb(4, 4, 4);
   background-repeat: no-repeat;
 }
 
-/* p {
-  margin: 16px auto;
-  line-height: 1.5em;
-} */
-
-/* layout & nav */
 .layouts {
-  max-width: 75vw;
+  max-width: 60vw;
   margin: auto;
-  /* margin: 20px 20px; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .content {
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 nav {
@@ -40,24 +37,49 @@ nav {
   margin-bottom: 20px;
 }
 
-nav .links {
-  display: inline-block;
-  text-align: right;
-}
-nav a {
-  display: inline-block;
-  margin-left: 20px;
+.navName {
+  font-size: 2em;
   font-weight: 400;
 }
 
+nav .links {
+  display: inline-block;
+  text-align: right;
+  align-self: end;
+}
+
+.link {
+  margin-left: 1em;
+  font-size: 1.2em;
+  transition: 0.2s ease;
+}
+
+.link:hover {
+  color: deeppink;
+  transform: scaleY(2em);
+}
+
 footer {
-  bottom: 0;
-  background-color: black;
-  position: sticky;
-  /* width: 100%; */
+  /* position: absolute;
+  bottom: 0; */
+  /* background-color: rgb(32, 32, 32); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1.3em;
+  margin-top: 1em;
+  font-size: 1.3em;
 }
 
 footer p {
   /* text-align: center; */
   /* color: #bbb; */
+}
+
+.about {
+  transition: 0.3s ease;
+}
+
+.about:hover {
+  color: deeppink;
 }

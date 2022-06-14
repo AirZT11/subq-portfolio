@@ -3,8 +3,6 @@ export const cardListContainer: string;
 export const cardContainer: string;
 export const imageLinkViewContainer: string;
 export const gatsbyImage: string;
-export const cardImage: string;
-export const musicContainer: string;
 export const embedContainer: string;
 export const hoverOverlay: string;
 export const cardSongPreview: string;

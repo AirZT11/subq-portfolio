@@ -1,52 +1,42 @@
-@media only screen and (max-width: 600px) {
-  .cardListContainer {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    grid-template-rows: auto;
-    gap: 0.75em;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  .cardListContainer {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    grid-template-rows: auto;
-    gap: 0.75em;
-  }
+.cardListContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-template-rows: auto;
+  gap: 0.75em;
 }
 
 .cardContainer {
   border-radius: 3px;
   overflow: hidden;
   position: relative;
-  /* cursor: pointer; */
-  /* box-sizing: border-box; */
-}
-.imageLinkViewContainer {
-  position: relative;
-  flex-basis: calc(25% - 10px);
-  box-sizing: border-box;
 }
 
-.imageLinkViewContainer::before {
-  content: "";
-  display: block;
-  padding-top: 100%;
+@media only screen and (max-width: 600px) {
+  .imageLinkViewContainer {
+    display: flex;
+  }
 }
 
-.imageLinkViewContainer .gatsbyImage {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-}
+@media only screen and (min-width: 600px) {
+  .imageLinkViewContainer {
+    position: relative;
+    flex-basis: calc(25% - 10px);
+    box-sizing: border-box;
+  }
 
-.cardImage {
-}
+  .imageLinkViewContainer::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+  }
 
-.musicContainer {
+  .imageLinkViewContainer .gatsbyImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
 }
 
 .embedContainer {

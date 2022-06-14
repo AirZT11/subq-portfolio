@@ -1,8 +1,10 @@
-import { graphql } from "gatsby"
-import { GatsbyImage, getImage, StaticImage } from "gatsby-plugin-image"
-import React, { useRef } from "react"
+import { getImage } from "gatsby-plugin-image"
+import React from "react"
 import { CardProps } from "./CardListView"
 import * as styles from "../styles/card.module.css"
+import { ImageLinkView } from "./ImageLinkView"
+import { VimeoView } from "./VimeoView"
+import { MusicVideoView } from "./MusicVideoView"
 
 interface CardDataProps {
   key: string
@@ -31,43 +33,14 @@ export default function CardView({ cardData }) {
 
   return (
     <div className={styles.cardContainer}>
-      {/* <div className={styles.cardMediaContainer}> */}
-      <a href={audio} target="_blank" className={styles.imageLinkWrapper}>
-        {image && (
-          <GatsbyImage
-            className={styles.cardImage}
-            image={imageObj}
-            alt="nothing"
-          />
-        )}
-        {video && (
-          <iframe
-            src={`${video}`}
-            width="100%"
-            height="300"
-            frameBorder="0"
-            allow="autoplay; fullscreen"
-            // webkitAllowFullScreen
-            // mozallowfullscreen
-            allowFullScreen
-            onClick={e => console.log("hello!")}
-          />
-        )}
-
-        {/* <iframe
-            className={styles.cardSongPreview}
-            src="https://open.spotify.com/embed/user/spotify/playlist/37i9dQZF1DWWvHBEQLnV1N"
-            width="100%"
-            height="100%"
-            frameBorder={0}
-          /> */}
-        <div className={styles.hoverOverlay}>
-          <div className={styles.cardInfo}>
-            <p>{title}</p>
-          </div>
+      {image && <ImageLinkView audio={audio} imageObj={imageObj} />}
+      {video && type === "sfx" && <VimeoView video={video} />}
+      {video && type === "music" && <MusicVideoView video={video} />}
+      <div className={styles.hoverOverlay}>
+        <div className={styles.cardInfo}>
+          <p>{title}</p>
         </div>
-      </a>
-      {/* </div> */}
+      </div>
     </div>
   )
 }

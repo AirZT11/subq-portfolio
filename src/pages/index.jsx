@@ -26,10 +26,10 @@ export default function Home() {
         /> */}
         <StaticImage
           className={logo}
-          src="../images/logo.png"
+          src="../images/logo.svg"
           imgStyle={{
             ...btnHovered,
-            transition: "0.25s ease",
+            transition: "0.1s ease-in-out",
           }}
         />
 

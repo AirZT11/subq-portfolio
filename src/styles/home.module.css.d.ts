@@ -4,5 +4,5 @@ export const header: string;
 export const backgroundImage: string;
 export const logo: string;
 export const link: string;
-export const btnContainer: string;
 export const btn: string;
+export const btnContainer: string;

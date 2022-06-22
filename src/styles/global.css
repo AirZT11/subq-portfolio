@@ -23,18 +23,25 @@ body {
 }
 
 nav {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .navName {
   font-size: 2em;
+  transition: 0.2s ease;
+}
+
+.navName:hover {
+  color: #2196f3;
+  text-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
 }
 
 nav .links {
-  display: inline-block;
+  display: flex;
   text-align: right;
   align-self: end;
 }
@@ -45,8 +52,8 @@ nav .links {
 }
 
 .link:hover {
-  color: deeppink;
-  transform: scaleY(2em);
+  color: #2196f3;
+  text-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
 }
 
 footer {
@@ -67,7 +74,8 @@ footer p {
 }
 
 .about:hover {
-  color: deeppink;
+  color: #2196f3;
+  text-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
 }
 
 @media only screen and (min-width: 600px) {

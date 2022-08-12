@@ -29,7 +29,7 @@ export default function NavBar() {
           Music
         </Link>
         <Link to="/productions" className="link">
-          Productions
+          Beats
         </Link>
         {/* <Link to='/'>About</Link>
       <Link to='/'>Contact</Link> */}

@@ -11,7 +11,8 @@ interface CardDataProps {
   cardData: CardProps
 }
 export default function CardView({ cardData }) {
-  const { artist, audio, credits, image, title, type, video } = cardData
+  const { artist, audio, credits, image, title, type, video, description } =
+    cardData
 
   // converts image data GatsbyImage iamge src
   const imageObj = image && getImage(image.src.childImageSharp.gatsbyImageData)
@@ -19,17 +20,14 @@ export default function CardView({ cardData }) {
   // Add commas on artists/credits if > 1
   const addComma = (arr: [], i: number) => {
     if (arr.length > 1 && i < arr.length - 1) return ", "
+    return ""
   }
   const infoArr = arr =>
-    arr.map((name: string, i: number) => (
-      <span>
-        {name}
-        {addComma(arr, i)}
-      </span>
-    ))
+    arr.map((name: string, i: number) => name + addComma(arr, i))
 
   const artistName = infoArr(artist)
   const artistCredits = infoArr(credits)
+  const creditDescription = infoArr(description)
 
   return (
     <div className={styles.cardContainer}>
@@ -39,6 +37,11 @@ export default function CardView({ cardData }) {
       <div className={styles.hoverOverlay}>
         <div className={styles.cardInfo}>
           <p>{title}</p>
+        </div>
+        <div className={styles.cardDescriptionContainer}>
+          <span className={styles.cardDescriptionText}>
+            {creditDescription}
+          </span>
         </div>
       </div>
     </div>

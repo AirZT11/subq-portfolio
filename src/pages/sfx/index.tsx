@@ -23,10 +23,10 @@ export const query = graphql`
         audio
         credits
         id
-
         title
         type
         video
+        description
       }
     }
   }

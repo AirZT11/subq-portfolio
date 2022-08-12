@@ -40,7 +40,7 @@ export default function Home() {
             id={sfxBtn}
             onMouseEnter={() => setLogoDirection(true)}
           >
-            SFX
+            SFX / SYNC
           </Link>
           <Link
             to="/music"

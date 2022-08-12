@@ -5,6 +5,7 @@ import Layout from "../../components/Layout"
 
 export default function Music({ data }) {
   const dataArray = data.allDataJson.nodes
+  console.log(dataArray)
 
   return (
     <Layout>
@@ -37,6 +38,7 @@ export const query = graphql`
         title
         type
         video
+        description
       }
     }
   }

@@ -9,6 +9,7 @@
   border-radius: 3px;
   overflow: hidden;
   position: relative;
+  /* aspect-ratio: 1; */
 }
 
 @media only screen and (max-width: 600px) {
@@ -43,6 +44,7 @@
   --video--width: 1920;
   --video--height: 1080;
   display: flex;
+  flex-direction: column;
   position: relative;
   padding-bottom: calc(var(--video--height) / var(--video--width) * 100%);
   /* 41.66666667% */
@@ -50,6 +52,21 @@
   overflow: hidden;
   max-width: 100%;
   background: black;
+}
+
+.musicVideoContainer {
+  --video--width: 1920;
+  --video--height: 1080;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* padding-bottom: calc(var(--video--height) / var(--video--width) * 100%); */
+  /* 41.66666667% */
+  border-radius: 3px;
+  overflow: hidden;
+  max-width: 100%;
+  background: black;
+  aspect-ratio: 1;
 }
 
 .embedContainer iframe,
@@ -89,15 +106,32 @@
 }
 
 .cardInfo {
-  /* padding: 8px; */
+  padding: 8px;
   transition: 0.5s ease;
   opacity: 0;
-  position: absolute;
+  margin: auto;
+  position: relative;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  /* transform: translate(-50%, -50%); */
+  /* -ms-transform: translate(-50%, -50%); */
   text-align: center;
+}
+
+.cardDescriptionContainer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  margin: 1rem;
+}
+
+.cardDescriptionText {
+  transition: 0.5s ease;
+  color: black;
+  font-size: 1.1rem;
+  opacity: 0;
 }
 
 .hoverOverlay p {
@@ -106,5 +140,9 @@
 }
 
 .cardContainer:hover .cardInfo {
+  opacity: 1;
+}
+
+.cardContainer:hover .cardDescriptionText {
   opacity: 1;
 }

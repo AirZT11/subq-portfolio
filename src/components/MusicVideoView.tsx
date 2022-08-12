@@ -3,7 +3,7 @@ import * as styles from "../styles/card.module.css"
 
 export const MusicVideoView = ({ video }) => {
   return (
-    <div className={styles.embedContainer}>
+    <div className={styles.musicVideoContainer}>
       <iframe
         src={`${video}`}
         width="100%"

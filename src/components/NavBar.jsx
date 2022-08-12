@@ -23,7 +23,7 @@ export default function NavBar() {
       </Link>
       <div className="links">
         <Link to="/sfx" className="link">
-          SFX
+          SFX / SYNC
         </Link>
         <Link to="/music" className="link">
           Music

@@ -110,26 +110,6 @@
     "description": ["Producer"]
   },
   {
-    "title": "We",
-    "artist": ["Justine Skye"],
-    "credits": ["Justine Skye"],
-    "audio": null,
-    "video": "https://www.youtube.com/embed/1JU4L7LGctM",
-    "image": null,
-    "type": "music",
-    "description": ["Guitar", "Kays", "Synth Bass"]
-  },
-  {
-    "title": "Twisted",
-    "artist": ["Justine Skye"],
-    "credits": ["Justine Skye"],
-    "audio": null,
-    "video": "https://www.youtube.com/embed/u2wpS-HlY0A",
-    "image": null,
-    "type": "music",
-    "description": ["Guitar", "Kays", "Synth Bass"]
-  },
-  {
     "title": "Black Girl Magic",
     "artist": ["Niya Norwood"],
     "credits": ["Niya Norwood"],
@@ -164,16 +144,6 @@
     "artist": [],
     "credits": [],
     "audio": null,
-    "video": "https://player.vimeo.com/video/690015499?h=e66303c4d3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "image": null,
-    "type": "sfx",
-    "description": ["Composition", "SFX", "Mix", "Foley", "Sync"]
-  },
-  {
-    "title": "Elijah Craig",
-    "artist": [],
-    "credits": [],
-    "audio": null,
     "video": "https://player.vimeo.com/video/690015468?h=e413041dd3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     "image": null,
     "type": "sfx",
@@ -187,7 +157,7 @@
     "video": "https://player.vimeo.com/video/690014848?h=2c8c6f945a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     "image": null,
     "type": "sfx",
-    "description": ["Composition", "Mix", "Sync"]
+    "description": ["Composition", "SFX", "Mix", "Foley", "Sync"]
   },
   {
     "title": "Infinity",
@@ -238,5 +208,15 @@
     "image": null,
     "type": "sfx",
     "description": ["Composition", "Mix", "Sync"]
+  },
+  {
+    "title": "Elijah Craig",
+    "artist": [],
+    "credits": [],
+    "audio": null,
+    "video": "https://player.vimeo.com/video/690015499?h=e66303c4d3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    "image": null,
+    "type": "sfx",
+    "description": ["Composition", "SFX", "Mix", "Foley", "Sync"]
   }
 ]

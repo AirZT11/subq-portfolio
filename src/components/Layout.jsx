@@ -8,12 +8,35 @@ export default function Layout({ children }) {
     <div className="layouts">
       <NavBar />
       <div className="content">{children}</div>
-      <footer>
-        <p>Copyright 2022 SubQ</p>
-        <Link to="/about" className="about">
-          About
-        </Link>
-      </footer>
+      <div className="footerContainer">
+        <footer>
+          <p>Copyright 2022 SubQ</p>
+          <div>
+            <a
+              href="mailto: thesubq@gmail.com"
+              className="about"
+              style={{ paddingRight: "2rem" }}
+            >
+              Contact
+            </a>
+            <Link
+              to="/about"
+              className="about"
+              style={{ paddingRight: "2rem" }}
+            >
+              About
+            </Link>
+            <a
+              href="https://www.instagram.com/subqmusic/?hl=en"
+              className="about"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              IG
+            </a>
+          </div>
+        </footer>
+      </div>
     </div>
   )
 }

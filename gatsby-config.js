@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: "SUBQ",
+    description: "SUBQ SFX, Sync, and Music",
+    image: `src/images/logo.png`,
+    url: `https://www.subqsounds.com/`,
   },
   plugins: [
     "gatsby-plugin-image",
@@ -26,6 +29,12 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [`gatsby-remark-responsive-iframe`],
+      },
+    },
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        icon: "src/images/logo.png",
       },
     },
   ],

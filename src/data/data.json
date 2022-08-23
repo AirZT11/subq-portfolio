@@ -1,8 +1,28 @@
 [
   {
+    "title": "Asking for You",
+    "artist": ["Spacemoth"],
+    "credits": ["Spacemoth", "Sub Q"],
+    "audio": "https://open.spotify.com/track/52p1dl5IoFt7Vfa8rC5iKd?si=1f59b500558c49ff",
+    "video": null,
+    "image": { "src": "../images/asking_for_you.png" },
+    "type": "music",
+    "description": ["Guitar"]
+  },
+  {
+    "title": "Ultraviolet",
+    "artist": ["Chris Borello"],
+    "credits": ["Chris Borello", "Sub Q"],
+    "audio": "https://open.spotify.com/track/1lKu71ZMUBmdDFoPLNqH2K?si=87f46d6f8ed64c9a",
+    "video": null,
+    "image": { "src": "../images/ultraviolet.png" },
+    "type": "music",
+    "description": ["Producer"]
+  },
+  {
     "title": "Mistake",
     "artist": ["Louie Bello"],
-    "credits": ["Louie Bello", "Jason Tucker Sub Q (guitar)"],
+    "credits": ["Louie Bello", "Jason Tucker", "Sub Q"],
     "audio": "https://open.spotify.com/track/4qIwh1xLOgtLXq4UMy2Kqe?si=cc94079630364991",
     "video": null,
     "image": { "src": "../images/mistake.png" },
@@ -12,7 +32,7 @@
   {
     "title": "Can’t Miss A Friend",
     "artist": ["DJ and the Yams"],
-    "credits": ["DJ and the Yams", "Sub Q (guitar)"],
+    "credits": ["DJ and the Yams", "Sub Q"],
     "audio": "https://open.spotify.com/track/409iRP6OdbmT6LADKJsA6f?si=b7da4556d88549e6",
     "video": null,
     "image": { "src": "../images/cant_miss_a_friend.png" },
@@ -118,6 +138,36 @@
     "image": null,
     "type": "music",
     "description": ["Guitar"]
+  },
+  {
+    "title": "Civil",
+    "artist": ["Ben Crump"],
+    "credits": [],
+    "audio": null,
+    "video": "https://player.vimeo.com/video/740532380?h=aa05f64c0f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    "image": null,
+    "type": "sfx",
+    "description": ["Composition", "Sync"]
+  },
+  {
+    "title": "Twisted Fantasy",
+    "artist": ["Justin Skye"],
+    "credits": [],
+    "audio": null,
+    "video": "https://player.vimeo.com/video/740530751?h=fa5852bafc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    "image": null,
+    "type": "sfx",
+    "description": ["Keys", "Keybass"]
+  },
+  {
+    "title": "We",
+    "artist": ["Justine Skye"],
+    "credits": [],
+    "audio": null,
+    "video": "https://player.vimeo.com/video/738978388?h=e8df65298f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    "image": null,
+    "type": "sfx",
+    "description": ["Guitar", "Keys", "Keybass"]
   },
   {
     "title": "The Nature Conservancy",

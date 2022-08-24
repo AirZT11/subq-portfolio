@@ -140,23 +140,13 @@
     "description": ["Guitar"]
   },
   {
-    "title": "Civil",
-    "artist": ["Ben Crump"],
-    "credits": [],
-    "audio": null,
-    "video": "https://player.vimeo.com/video/740532380?h=aa05f64c0f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "image": null,
-    "type": "sfx",
-    "description": ["Composition", "Sync"]
-  },
-  {
     "title": "Twisted Fantasy",
     "artist": ["Justin Skye"],
     "credits": [],
     "audio": null,
     "video": "https://player.vimeo.com/video/740530751?h=fa5852bafc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     "image": null,
-    "type": "sfx",
+    "type": "music",
     "description": ["Keys", "Keybass"]
   },
   {
@@ -166,8 +156,18 @@
     "audio": null,
     "video": "https://player.vimeo.com/video/738978388?h=e8df65298f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     "image": null,
-    "type": "sfx",
+    "type": "music",
     "description": ["Guitar", "Keys", "Keybass"]
+  },
+  {
+    "title": "Civil",
+    "artist": ["Ben Crump"],
+    "credits": [],
+    "audio": null,
+    "video": "https://player.vimeo.com/video/740532380?h=aa05f64c0f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    "image": null,
+    "type": "sfx",
+    "description": ["Composition", "Sync"]
   },
   {
     "title": "The Nature Conservancy",

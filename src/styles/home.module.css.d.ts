@@ -6,3 +6,4 @@ export const logo: string;
 export const link: string;
 export const btn: string;
 export const btnContainer: string;
+export const sfxBtn: string;

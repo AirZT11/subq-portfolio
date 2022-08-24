@@ -1,9 +1,11 @@
 import React from "react"
 import * as styles from "../styles/about.module.css"
+import Seo from "./Seo"
 
 export default function AboutView() {
   return (
     <div className={styles.aboutContainer}>
+      <Seo title="About" />
       <h1>About</h1>
       <section>
         <p>

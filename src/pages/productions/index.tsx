@@ -1,9 +1,11 @@
 import React from "react"
 import Layout from "../../components/Layout"
+import Seo from "../../components/Seo"
 
 export default function Productions({ data }) {
   return (
     <Layout>
+      <Seo title="Beats" />
       <iframe
         width="100%"
         height="700"

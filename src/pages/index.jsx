@@ -1,12 +1,12 @@
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import React, { useState } from "react"
+import Seo from "../components/Seo"
 import {
   header,
   home,
   btnContainer,
   btn,
-  backgroundImage,
   logo,
   sfxBtn,
 } from "../styles/home.module.css"
@@ -18,12 +18,9 @@ export default function Home() {
   }
   return (
     <div className={home}>
+      <Seo title="Home" />
       <section className={header}>
         <h2>SUBQ</h2>
-        {/* <StaticImage
-          className={backgroundImage}
-          src="../images/cloud-background.jpg"
-        /> */}
         <StaticImage
           className={logo}
           src="../images/logo.svg"

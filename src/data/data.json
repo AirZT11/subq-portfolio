@@ -160,6 +160,16 @@
     "description": ["Guitar"]
   },
   {
+    "title": "Block Party",
+    "artist": ["Block Party"],
+    "credits": [],
+    "audio": null,
+    "video": "https://player.vimeo.com/video/743101440?h=6bba7ccb1a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    "image": null,
+    "type": "sfx",
+    "description": ["Composition", "Sync", "Score"]
+  },
+  {
     "title": "Civil",
     "artist": ["Ben Crump"],
     "credits": [],

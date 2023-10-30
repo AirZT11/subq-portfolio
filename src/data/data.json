@@ -290,7 +290,7 @@
     "description": ["Composition", "SFX", "Mix", "Foley", "Sync"]
   },
   {
-    "title": "Infinity",
+    "title": "Xfinity",
     "artist": [],
     "credits": [],
     "audio": null,
@@ -315,16 +315,6 @@
     "credits": [],
     "audio": null,
     "video": "https://player.vimeo.com/video/688601996?h=8faf0ea58d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "image": null,
-    "type": "sfx",
-    "description": ["Composition", "Mix", "Sync"]
-  },
-  {
-    "title": "Blue Cross",
-    "artist": [],
-    "credits": [],
-    "audio": null,
-    "video": "https://player.vimeo.com/video/688601925?h=dcaa6a6773&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     "image": null,
     "type": "sfx",
     "description": ["Composition", "Mix", "Sync"]

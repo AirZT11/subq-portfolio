@@ -21,19 +21,19 @@ export default function NavBar() {
       <Link to="/" className="navName">
         SubQ
       </Link>
-      <div className="links">
-        <Link to="/sfx" className="link">
+      {/* <div className="links"> */}
+        {/* <Link to="/sfx" className="link">
           SFX / SYNC
-        </Link>
-        <Link to="/music" className="link">
+        </Link> */}
+        {/* <Link to="/music" className="link">
           Music
         </Link>
         <Link to="/productions" className="link">
           Beats
-        </Link>
+        </Link> */}
         {/* <Link to='/'>About</Link>
       <Link to='/'>Contact</Link> */}
-      </div>
+      {/* </div> */}
     </nav>
   )
 }

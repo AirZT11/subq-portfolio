@@ -21,16 +21,24 @@ export default function Home() {
       <Seo title="Home" />
       <section className={header}>
         <h2>SUBQ</h2>
-        <StaticImage
-          className={logo}
-          src="../images/logo.svg"
-          imgStyle={{
-            ...btnHovered,
-            transition: "0.1s ease-in-out",
-          }}
-        />
+        <Link
+            to="/sfx"
+            className={btn}
+            id={sfxBtn}
+            onMouseEnter={() => setLogoDirection(true)}
+          >
+            ENTER
+            {/* <StaticImage
+              className={logo}
+              src="../images/logo.svg"
+              imgStyle={{
+                ...btnHovered,
+                transition: "0.1s ease-in-out",
+              }}
+            /> */}
+          </Link>
 
-        <div className={btnContainer}>
+        {/* <div className={btnContainer}>
           <Link
             to="/sfx"
             className={btn}
@@ -47,7 +55,7 @@ export default function Home() {
           >
             Music
           </Link>
-        </div>
+        </div> */}
       </section>
     </div>
   )

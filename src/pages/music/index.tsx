@@ -6,7 +6,6 @@ import Seo from "../../components/Seo"
 
 export default function Music({ data }) {
   const dataArray = data.allDataJson.nodes
-  console.log(dataArray)
 
   return (
     <Layout>

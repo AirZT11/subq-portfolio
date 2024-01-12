@@ -31,8 +31,8 @@ export default function CardView({ cardData }) {
 
   return (
     <div className={styles.cardContainer}>
-      {image && <ImageLinkView audio={audio} imageObj={imageObj} />}
-      {video && type === "sfx" && <VimeoView video={video} />}
+      {/* {image && <ImageLinkView audio={audio} imageObj={imageObj} />} */}
+      {video && type === "sfx" && <VimeoView video={video} imageObj={imageObj} />}
       {video && type === "music" && <MusicVideoView video={video} />}
       <div className={styles.hoverOverlay}>
         <div className={styles.cardInfo}>

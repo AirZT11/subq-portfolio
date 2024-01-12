@@ -3,8 +3,13 @@ import React from "react"
 import { CardProps } from "./CardListView"
 import * as styles from "../styles/card.module.css"
 
-export const ImageLinkView = ({ audio, imageObj }) => {
-  return (
+interface ImageLinkViewProps {
+  audio?: string
+  imageObj: any
+}
+
+export const ImageLinkView = ({ audio, imageObj }: ImageLinkViewProps) => {
+  return audio ? (
     <a href={audio} target="_blank" className={styles.imageLinkViewContainer}>
       <GatsbyImage
         image={imageObj}
@@ -12,5 +17,14 @@ export const ImageLinkView = ({ audio, imageObj }) => {
         className={styles.gatsbyImage}
       />
     </a>
+  ) :
+  (
+    <div className={styles.imageLinkViewContainer}>
+      <GatsbyImage
+      image={imageObj}
+      alt="nothing"
+      // className={styles.gatsbyImage}
+    />
+    </div>
   )
 }

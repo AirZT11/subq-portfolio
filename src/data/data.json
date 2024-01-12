@@ -5,7 +5,7 @@
     "credits": [],
     "audio": null,
     "video": "https://player.vimeo.com/video/842616221?h=5f19037292",
-    "image": null,
+    "image": { "src": "../images/asking_for_you.png" },
     "type": "music",
     "description": ["Guitar"]
   },
@@ -15,7 +15,7 @@
     "credits": [],
     "audio": null,
     "video": "https://player.vimeo.com/video/842616245?h=d95fc827fe",
-    "image": null,
+    "image": { "src": "../images/asking_for_you.png" },
     "type": "music",
     "description": ["Guitar"]
   },
@@ -25,7 +25,7 @@
     "credits": [],
     "audio": null,
     "video": "https://player.vimeo.com/video/740530751?h=fa5852bafc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "image": null,
+    "image": { "src": "../images/asking_for_you.png" },
     "type": "music",
     "description": ["Keys", "Keybass"]
   },
@@ -35,7 +35,7 @@
     "credits": [],
     "audio": null,
     "video": "https://player.vimeo.com/video/738978388?h=e8df65298f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "image": null,
+    "image": { "src": "../images/asking_for_you.png" },
     "type": "music",
     "description": ["Guitar", "Keys", "Keybass"]
   },
@@ -175,7 +175,7 @@
     "credits": ["Niya Norwood"],
     "audio": null,
     "video": "https://www.youtube.com/embed/O1airw30mdg",
-    "image": null,
+    "image": { "src": "../images/asking_for_you.png" },
     "type": "music",
     "description": ["Guitar"]
   },
@@ -184,8 +184,8 @@
     "artist": ["Facebook"],
     "credits": [],
     "audio": null,
-    "video": "https://player.vimeo.com/video/842616146?h=d4f64b74e5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "image": null,
+    "video": "https://player.vimeo.com/video/902085124?h=75787c8846&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    "image": { "src": "../images/asking_for_you.png" },
     "type": "sfx",
     "description": ["Composition"]
   },
@@ -194,8 +194,8 @@
     "artist": ["Facebook"],
     "credits": [],
     "audio": null,
-    "video": "https://player.vimeo.com/video/842616272?h=b723c80718&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "image": null,
+    "video": "https://player.vimeo.com/video/902085657?h=b6a529cb4e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    "image": { "src": "../images/asking_for_you.png" },
     "type": "sfx",
     "description": ["Composition"]
   },
@@ -205,7 +205,7 @@
     "credits": [],
     "audio": null,
     "video": "https://player.vimeo.com/video/842616158?h=aba4fa72a5",
-    "image": null,
+    "image": { "src": "../images/asking_for_you.png" },
     "type": "sfx",
     "description": ["SFX, Sync, Mix, Foley"]
   },
@@ -215,7 +215,7 @@
     "credits": [],
     "audio": null,
     "video": "https://player.vimeo.com/video/842616179?h=1eeae553bd",
-    "image": null,
+    "image": { "src": "../images/asking_for_you.png" },
     "type": "sfx",
     "description": ["Sync, Composition"]
   },
@@ -224,8 +224,8 @@
     "artist": ["Walmart"],
     "credits": [],
     "audio": null,
-    "video": "https://player.vimeo.com/video/842616201?h=81acf32bbd",
-    "image": null,
+    "video": "https://player.vimeo.com/video/902083438?h=c5d5d5601a",
+    "image": { "src": "../images/asking_for_you.png" },
     "type": "sfx",
     "description": ["Composition"]
   },
@@ -234,8 +234,8 @@
     "artist": ["Block Party"],
     "credits": [],
     "audio": null,
-    "video": "https://player.vimeo.com/video/743101440?h=6bba7ccb1a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "image": null,
+    "video": "https://player.vimeo.com/video/902084685?h=931bcfc8a6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    "image": { "src": "../images/asking_for_you.png" },
     "type": "sfx",
     "description": ["Composition", "Sync", "Score"]
   },
@@ -245,7 +245,7 @@
     "credits": [],
     "audio": null,
     "video": "https://player.vimeo.com/video/740532380?h=aa05f64c0f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "image": null,
+    "image": { "src": "../images/asking_for_you.png" },
     "type": "sfx",
     "description": ["Composition", "Sync"]
   },
@@ -255,7 +255,7 @@
     "credits": [],
     "audio": null,
     "video": "https://player.vimeo.com/video/690016570?h=78167a01f4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "image": null,
+    "image": { "src": "../images/asking_for_you.png" },
     "type": "sfx",
     "description": ["Composition", "SFX", "Mix", "Foley", "Sync"]
   },
@@ -265,7 +265,7 @@
     "credits": [],
     "audio": null,
     "video": "https://player.vimeo.com/video/690015534?h=231e4b8522&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "image": null,
+    "image": { "src": "../images/asking_for_you.png" },
     "type": "sfx",
     "description": ["Composition", "SFX", "Mix", "Foley", "Sync"]
   },
@@ -275,7 +275,7 @@
     "credits": [],
     "audio": null,
     "video": "https://player.vimeo.com/video/690015468?h=e413041dd3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "image": null,
+    "image": { "src": "../images/asking_for_you.png" },
     "type": "sfx",
     "description": ["Composition", "SFX", "Mix", "Foley", "Sync"]
   },
@@ -285,7 +285,7 @@
     "credits": [],
     "audio": null,
     "video": "https://player.vimeo.com/video/690014848?h=2c8c6f945a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "image": null,
+    "image": { "src": "../images/asking_for_you.png" },
     "type": "sfx",
     "description": ["Composition", "SFX", "Mix", "Foley", "Sync"]
   },
@@ -295,7 +295,7 @@
     "credits": [],
     "audio": null,
     "video": "https://player.vimeo.com/video/688602188?h=9966b02033&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "image": null,
+    "image": { "src": "../images/asking_for_you.png" },
     "type": "sfx",
     "description": ["Composition", "Mix", "Sync"]
   },
@@ -305,7 +305,7 @@
     "credits": [],
     "audio": null,
     "video": "https://player.vimeo.com/video/688602040?h=827afab3d7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "image": null,
+    "image": { "src": "../images/asking_for_you.png" },
     "type": "sfx",
     "description": ["Composition", "Mix", "Sync"]
   },
@@ -315,7 +315,7 @@
     "credits": [],
     "audio": null,
     "video": "https://player.vimeo.com/video/877591801?h=a09367df7b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "image": null,
+    "image": { "src": "../images/asking_for_you.png" },
     "type": "sfx",
     "description": ["Composition", "Mix", "Sync"]
   },
@@ -325,7 +325,7 @@
     "credits": [],
     "audio": null,
     "video": "https://player.vimeo.com/video/688601885?h=56fed60b70&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "image": null,
+    "image": { "src": "../images/asking_for_you.png" },
     "type": "sfx",
     "description": ["Composition", "Mix", "Sync"]
   },
@@ -334,8 +334,8 @@
     "artist": [],
     "credits": [],
     "audio": null,
-    "video": "https://player.vimeo.com/video/690015499?h=e66303c4d3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "image": null,
+    "video": "https://player.vimeo.com/video/902081703?h=b8844b8048&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    "image": { "src": "../images/asking_for_you.png" },
     "type": "sfx",
     "description": ["Composition", "SFX", "Mix", "Foley", "Sync"]
   }

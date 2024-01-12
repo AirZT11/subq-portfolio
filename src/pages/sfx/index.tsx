@@ -23,6 +23,17 @@ export const query = graphql`
         audio
         credits
         id
+        image {
+          src {
+            childImageSharp {
+              gatsbyImageData(
+                width: 1000
+                placeholder: BLURRED
+                formats: [AUTO, WEBP, AVIF]
+              )
+            }
+          }
+        }
         title
         type
         video
